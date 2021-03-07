@@ -5,10 +5,16 @@
       <div class="col-lg-5">
         <h3 class="text-center">Technical Skills</h3>
 
-        <b-progress :max="max" height="2rem" v-for="skill in skills" :key="skill.id" class="mt-4">
+        <b-progress
+          :max="max"
+          height="2rem"
+          v-for="skill in skills"
+          :key="skill.id"
+          class="mt-4"
+        >
           <b-progress-bar :value="skill.value">
-            <span
-              >Go Lang:
+            <span class="text-inner-bar"
+              >{{ skill.skills }}:
               <strong>{{ skill.value.toFixed(2) }} / {{ max }}</strong></span
             >
           </b-progress-bar>
@@ -16,6 +22,22 @@
       </div>
       <div class="col-lg-5">
         <h3 class="text-center">Personal Skills</h3>
+
+        <b-progress
+          :max="max"
+          height="2rem"
+          v-for="skill in personalSkills"
+          :key="skill.id"
+          class="mt-4"
+          variant="success"
+        >
+          <b-progress-bar :value="skill.value">
+            <span class="text-inner-bar"
+              >{{ skill.skills }}:
+              <strong>{{ skill.value.toFixed(2) }} / {{ max }}</strong></span
+            >
+          </b-progress-bar>
+        </b-progress>
       </div>
     </div>
   </b-container>
@@ -29,9 +51,17 @@ export default {
       max: 100,
 
       skills: [
-        {skills: 'GO Lang', value: 75},
-        {skills: 'Express JS', value: 60},
-        {skills: 'Laravel PHP', value: 90}
+        { skills: 'GO Lang', value: 75 },
+        { skills: 'Express JS', value: 60 },
+        { skills: 'Laravel PHP', value: 90 },
+        { skills: 'Docker', value: 50 },
+      ],
+
+      personalSkills: [
+        { skills: 'Communication', value: 90 },
+        { skills: 'Team Work', value: 85 },
+        { skills: 'Project Mangement', value: 80 },
+        { skills: 'Creativity', value: 85 },
       ],
     }
   },
@@ -48,6 +78,11 @@ export default {
 }
 
 .row-skills {
-  margin-top: 100px;
+  margin-top: 75px;
+}
+
+.text-inner-bar {
+  text-align: left;
+  margin-left: 10px;
 }
 </style>

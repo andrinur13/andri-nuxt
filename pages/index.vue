@@ -7,6 +7,8 @@
     <info/>
     <education />
     <skills />
+    <contact />
+    <FooterCustom />
   </div>
 </template>
 
@@ -15,10 +17,13 @@ import Navbar from '~/components/Navbar.vue'
 import Top from '~/components/Top.vue'
 import Info from '~/components/Info.vue'
 import Education from '~/components/Education.vue'
+import FooterCustom from '~/components/Footer'
 
 export default {
-  components: { Top, Navbar, Info },
+  components: { Top, Navbar, Info, FooterCustom },
 }
+
+</script>
 
 <style>
 /* .container {

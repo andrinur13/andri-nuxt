@@ -7,10 +7,6 @@
         <br />
         <div class="bg-danger backend">Back End Developers</div>
         <br />
-        <br />
-        <span v-for="skill in skills" :key="skill.id">
-          {{ skill.skill }} <br />
-        </span>
       </div>
 
       <div class="col-lg-6">
