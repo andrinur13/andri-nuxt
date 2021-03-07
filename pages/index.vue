@@ -21,6 +21,18 @@ import FooterCustom from '~/components/Footer'
 
 export default {
   components: { Top, Navbar, Info, FooterCustom },
+
+  data() {
+    return{
+      title: 'Andri Nur Hidayatulloh'
+    }
+  },
+
+  head() {
+    return {
+      title: this.title
+    }
+  }
 }
 
 </script>
