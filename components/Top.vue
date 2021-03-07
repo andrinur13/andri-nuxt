@@ -2,11 +2,10 @@
   <div class="topBar">
     <div class="row d-flex justify-content-center p-4">
       <div class="col-lg-6">
-        <h3>{{name}}</h3>
+        <div class="custom-hello">Hello !</div>
+        <div class="mt-2 name-style">{{ name }}</div>
         <br />
-        <span
-          >{{descInfo}}</span
-        >
+        <div class="bg-danger backend">Back End Developers</div>
         <br />
         <br />
         <span v-for="skill in skills" :key="skill.id">
@@ -28,22 +27,9 @@
 export default {
   data() {
     return {
-      skills: [
-        {
-          id: 1,
-          skill: 'Go Lang',
-        },
-        {
-          id: 2,
-          skill: 'Express JS',
-        },
-        {
-          id: 3,
-          skill: 'Laravel PHP',
-        },
-      ],
-      name: "Andri Nur Hidayatulloh",
-      descInfo : "Hello my name is Andri Nur Hidayatulloh, I am a Back End Developers. But I'am interested about technology in Front End Developers"
+      name: 'Andri Nur Hidayatulloh',
+      descInfo:
+        "Hello my name is Andri Nur Hidayatulloh, I am a Back End Developers. But I'am interested about technology in Front End Developers",
     }
   },
 }
@@ -51,12 +37,34 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 .topBar {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Patrick Hand', 'Roboto', sans-serif;
+  margin-top: 100px;
 }
 
-.topBar {
-  margin-top: 50px;
+.custom-hello {
+  background-color: #4edbc5ff;
+  color: black;
+  width: auto;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15pt;
+}
+
+.backend {
+  background-color: #dc3545;
+  color: white;
+  width: auto;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20pt;
+}
+
+.name-style {
+  font-size: 35pt;
 }
 </style>

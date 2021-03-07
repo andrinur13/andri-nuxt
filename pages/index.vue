@@ -4,17 +4,21 @@
     <b-container>
       <top />
     </b-container>
+    <info/>
+    <education />
+    <skills />
   </div>
 </template>
 
 <script>
 import Navbar from '~/components/Navbar.vue'
 import Top from '~/components/Top.vue'
+import Info from '~/components/Info.vue'
+import Education from '~/components/Education.vue'
+
 export default {
-  components: { Top, Navbar },
+  components: { Top, Navbar, Info },
 }
-Top
-</script>
 
 <style>
 /* .container {
