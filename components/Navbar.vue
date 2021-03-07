@@ -13,19 +13,16 @@
           <b-navbar-nav class="ml-auto">
             <b-navbar-nav>
               <b-nav-item>
-                <nuxt-link to="/home" class="linkNuxt">About</nuxt-link>
+                <nuxt-link to="#about" class="linkNuxt">About</nuxt-link>
               </b-nav-item>
               <b-nav-item>
-                <nuxt-link to="/home" class="linkNuxt">Education</nuxt-link>
+                <nuxt-link to="#education" class="linkNuxt">Education</nuxt-link>
               </b-nav-item>
               <b-nav-item>
-                <nuxt-link to="/home" class="linkNuxt">Skills</nuxt-link>
+                <nuxt-link to="#skills" class="linkNuxt">Skills</nuxt-link>
               </b-nav-item>
               <b-nav-item>
-                <nuxt-link to="/home" class="linkNuxt">"Karya Saya"</nuxt-link>
-              </b-nav-item>
-              <b-nav-item>
-                <nuxt-link to="/home" class="linkNuxt">Contact</nuxt-link>
+                <nuxt-link to="#contact" class="linkNuxt">Contact</nuxt-link>
               </b-nav-item>
             </b-navbar-nav>
           </b-navbar-nav>
