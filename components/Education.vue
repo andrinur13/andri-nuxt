@@ -51,7 +51,7 @@ export default {
 
 .education {
   font-family: 'Patrick Hand', 'Roboto', sans-serif;
-  margin-top: 100px;
+  padding-top: 100px;
   margin-bottom: 50px;
 }
 

@@ -37,7 +37,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 .info-container {
-  margin-top: 150px;
+  padding-top: 100px;
   font-family: 'Patrick Hand', 'Roboto', sans-serif;
 }
 

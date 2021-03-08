@@ -1,5 +1,5 @@
 <template>
-  <b-container class="contact">
+  <b-container class="contact" id="contact">
     <h1 class="text-center">Contact Me</h1>
     <div class="row justify-content-center">
       <div class="col-lg-10">
@@ -71,7 +71,7 @@ export default {
 }
 
 .outer-card {
-  margin-top: 100px;
+  padding-top: 100px;
   margin-bottom: 100px;
 }
 

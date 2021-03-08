@@ -1,5 +1,5 @@
 <template>
-  <b-container class="skills">
+  <b-container class="skills" id="skills">
     <h1 class="text-center text-skills">Skills</h1>
     <div class="row justify-content-center row-skills">
       <div class="col-lg-5">
@@ -72,7 +72,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 .skills {
-  margin-top: 150px;
+  padding-top: 150px;
   margin-bottom: 100px;
   font-family: 'Patrick Hand', 'Roboto', sans-serif;
 }
