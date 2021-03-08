@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="light" variant="light" fixed="top" class="navText">
+    <b-navbar toggleable="lg" type="light" variant="light" fixed="top" class="navText shadow">
       <b-container>
         <b-navbar-brand>
           <nuxt-link to="/" class="linkNuxt">Andri</nuxt-link>
