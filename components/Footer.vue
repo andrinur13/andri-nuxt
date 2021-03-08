@@ -1,11 +1,11 @@
 <template>
   <b-container class="footer-custom">
     <div class="row justify-content-center">
-      <div class="col-lg-5">
-        <p class="name-footer text-center">Andri Nur Hidayatulloh</p>
+      <div class="col">
+        <p class="name-footer text-center">
+          © 2021 Andri Nur Hidayatulloh | Made with ❤️ using NuxtJS | Love from Yogyakarta
+        </p>
       </div>
-
-      <div class="col-lg-5 justify-content-center"></div>
     </div>
   </b-container>
 </template>

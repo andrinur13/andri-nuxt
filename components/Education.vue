@@ -1,5 +1,5 @@
 <template>
-  <div class="education">
+  <div class="education" id="education">
     <h1 class="text-center">Education</h1>
     <b-container>
       <div

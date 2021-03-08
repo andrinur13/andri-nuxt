@@ -1,5 +1,5 @@
 <template>
-  <b-container class="info-container">
+  <b-container class="info-container" id="about">
     <div class="row d-flex justify-content-center p-4">
       <div class="col-lg-4 justify-content-center">
         <img src="/info.png" alt="andri" width="70%" />
@@ -37,7 +37,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 .info-container {
-  margin-top: 100px;
+  margin-top: 150px;
   font-family: 'Patrick Hand', 'Roboto', sans-serif;
 }
 

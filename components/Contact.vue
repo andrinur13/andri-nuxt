@@ -10,7 +10,7 @@
               :key="contact.id"
               :title="contact.name"
               img-alt="Image"
-              class="mx-1 shadow"
+              class="mx-1 shadow card-item"
               align="center"
               img-top
               @click="openLink(contact.link)"
@@ -73,5 +73,9 @@ export default {
 .outer-card {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.card-item:hover {
+  background-color: whitesmoke;
 }
 </style>

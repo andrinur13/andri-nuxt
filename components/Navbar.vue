@@ -54,5 +54,6 @@ export default {}
 
 .navText {
   font-family: 'Patrick Hand', 'Roboto', sans-serif;
+  
 }
 </style>
