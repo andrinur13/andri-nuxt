@@ -1,5 +1,5 @@
-<template>
-  <b-container class="info-container" id="about">
+<template> 
+  <b-container class="info-container" id="about" v-smooth-scroll>
     <div class="row d-flex justify-content-center p-4">
       <div class="col-lg-4 justify-content-center">
         <img src="/info.png" alt="andri" width="70%" />
