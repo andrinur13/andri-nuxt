@@ -26,7 +26,7 @@ export default {
       name: 'Andri Nur Hidayatulloh',
       descInfo:
         "Hello my name is Andri Nur Hidayatulloh, I am a Back End Developers. But I'am interested about technology in Front End Developers",
-      img: 'andri.jpg',
+      img: 'andri.png',
     }
   },
 }
