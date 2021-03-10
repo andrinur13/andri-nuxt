@@ -1,7 +1,7 @@
 <template>
   <div class="topBar">
     <div class="row d-flex justify-content-center p-4">
-      <div class="col-lg-6">
+      <div class="col-lg-6 kolom1">
         <div class="custom-hello">Hello !</div>
         <div class="mt-2 name-style">{{ name }}</div>
         <br />
@@ -9,7 +9,7 @@
         <br />
       </div>
 
-      <div class="col-lg-6">
+      <div class="col-lg-6 kolom2">
         <div class="d-flex justify-content-center">
           <img src="/andri.png" alt="andri" width="70%" />
         </div>
@@ -62,5 +62,21 @@ export default {
 
 .name-style {
   font-size: 35pt;
+}
+
+@media only screen and (max-width: 390px) {
+
+  .kolom2 {
+    margin-top: 30px;
+  }
+
+  .custom-hello {
+    text-align: center;
+  }
+
+  .name-style {
+    font-size: 20pt;
+    text-align: center;
+  }
 }
 </style>
