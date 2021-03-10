@@ -11,7 +11,7 @@
 
       <div class="col-lg-6 kolom2">
         <div class="d-flex justify-content-center">
-          <img src="/andri.png" alt="andri" width="70%" />
+          <img :src="img" alt="andri" width="70%" />
         </div>
       </div>
     </div>
@@ -26,6 +26,7 @@ export default {
       name: 'Andri Nur Hidayatulloh',
       descInfo:
         "Hello my name is Andri Nur Hidayatulloh, I am a Back End Developers. But I'am interested about technology in Front End Developers",
+      img: 'andri.jpg',
     }
   },
 }
@@ -65,7 +66,6 @@ export default {
 }
 
 @media only screen and (max-width: 390px) {
-
   .kolom2 {
     margin-top: 30px;
   }

@@ -1,8 +1,8 @@
-<template> 
+<template>
   <b-container class="info-container" id="about" v-smooth-scroll>
     <div class="row d-flex justify-content-center p-4">
       <div class="col-lg-4 justify-content-center">
-        <img src="/info.png" alt="andri" width="70%" />
+        <img :src="img" alt="andri" width="70%" />
       </div>
 
       <div class="col-lg-4">
@@ -28,6 +28,7 @@ export default {
         "Hello, I’m a Andri, Back End Developers based on Yogyakarta Indonesia. I have rich experience in make RESTFUL API and I'm also interested about Front End technlogy",
 
       skills: ['Go Lang', 'Express JS', 'Laravel', 'Node JS', 'Docker'],
+      img: 'info.png',
     }
   },
 }
