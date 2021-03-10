@@ -46,6 +46,9 @@ export default {
   pwa: {
     manifest: {
       lang: 'en'
+    },
+    workbox: {
+      workboxVersion: 1.0,
     }
   },
 
